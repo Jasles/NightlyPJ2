@@ -1,0 +1,17 @@
+
+
+
+   
+    {{#each hotel}}
+    <p>{{img}} </p>
+
+    <a href="/{{ id }}"><p>{{name}} </p></a>
+    
+    <p>{{location}} </p>
+    {{/each}}
+
+   
+
+         <form action="/new" method="GET">
+            <input type="submit" value="Add New Hotel"/>
+        </form>     

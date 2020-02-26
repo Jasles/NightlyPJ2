@@ -1,0 +1,22 @@
+<main>
+
+	<h2>EDIT THIS HOTEL</h2>
+
+	<a href="/">Return to Home Page</a>
+		<div id="edit-form" class="-container-show"></div>
+
+
+		<form action="/{{ hotel.id }}?_method=PUT" method="POST">
+			Name: <input type="text" name="name" value="{{ hotel.name }}"/><br/>
+			Hotel Location: <input type="text" name="location" value="{{hotel.location}}"><br/>
+			Description: <input type="text" name="description" value="{{ hotel.description }}"/><br/>
+			Image: <input type="text" name="img" value="{{ hotel.img }}"/><br/>
+			Room Capacity:<input type="text" name="capacity" value="{{hotel.capacity}}"><br/>
+			Check-In Time:<input type= "text" name="checkinTime" value="{{hotel.checkinTime}}"><br/>
+			Service Provided:<input type="text" name="service" value="{{hotel.service}}"><br/>
+			
+			<input type="submit" value="Edit Booking Details"/>
+		</form>
+
+	</div>
+</main>
