@@ -30,6 +30,7 @@ hotelRouter.get('/:id/edit',(req,res)=>{
         res.render('editHotel', { hotel });
     });
 });
+
 hotelRouter.put('/:id',(req,res)=>{
     Hotel.findByIdAndUpdate(req.params.id, req.body).then(hotel => { 
         console.log('id')

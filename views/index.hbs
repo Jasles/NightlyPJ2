@@ -1,11 +1,11 @@
 
 
-
+<main>
    
     {{#each hotel}}
-    <p>{{img}} </p>
+ 
 
-    <a href="/{{ id }}"><p>{{name}} </p></a>
+    <a href="/{{ id }}"><h5>{{name}} </h5></a>
     
     <p>{{location}} </p>
     {{/each}}
@@ -15,3 +15,4 @@
          <form action="/new" method="GET">
             <input type="submit" value="Add New Hotel"/>
         </form>     
+        </main>

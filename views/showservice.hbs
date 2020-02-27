@@ -1,11 +1,19 @@
 <main>
-    {{service.name}}
-    {{service.image}}
-    {{service.description}}
-   {{service.materials}}
-   {{service.time}}
+    <h4> Service </h4>
+   <p>{{service.name}}</p> <br>
+    
+   <p>{{service.description}}</p> <br>
+    <p>{{service.materials}}</p><br>
+    <p>{{service.time}}</p><br>
 
 	
+       
+        <form action="/service/{{ service.id }}?_method=DELETE" method="POST">
+			<input type="submit" value="Delete Service"/>
+		</form>
+
+        <form action="/service/{{ service.id }}/edit" method="GET">
+            <input type="submit" value="Edit"/>
         </form>
 </main>
 

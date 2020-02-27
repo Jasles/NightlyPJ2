@@ -1,0 +1,15 @@
+ <main>
+ {{#each service}}
+   
+
+    <a href="/service/{{name}}"><h5>{{name}} </h5></a>
+    
+    <p>{{description}} </p>
+    {{/each}}
+
+   
+
+         <form action="/service/new" method="GET">
+            <input type="submit" value="Add New Service"/>
+        </form> 
+        </main>

@@ -1,0 +1,20 @@
+<main>
+    <h4> Guest Name</h4>
+
+   <p>{{guest.name}}</p> <br>
+  
+   <p>{{guest.Age}}</p> <br>
+    <p>{{guest.phone}}</p><br>
+    <p>{{guest.email}}</p><br>
+
+	
+       
+        <form action="/guest/{{ guest.id }}?_method=DELETE" method="POST">
+			<input type="submit" value="Delete Guest"/>
+		</form>
+
+        <form action="/guest/{{ guest.id }}/edit" method="GET">
+            <input type="submit" value="Edit Guest "/>
+        </form>
+</main>
+

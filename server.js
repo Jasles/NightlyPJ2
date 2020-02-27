@@ -5,6 +5,7 @@ const logger = require('morgan')
 
 const hotelRouter = require('./controllers/hotel')
 const serviceRouter = require('./controllers/service')
+const guestRouter = require('./controllers/guest')
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
@@ -16,8 +17,10 @@ app.use(express.static(__dirname + '/public'))
 
 app.use(logger('dev'))
 
-app.use('/',hotelRouter)
+app.use('/guest', guestRouter)
 app.use('/service', serviceRouter)
+app.use('/',hotelRouter)
+
 
 const port = process.env.PORT || 3005;
 

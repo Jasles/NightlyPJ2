@@ -1,0 +1,15 @@
+ <main>
+ <content>{{#each guest}}
+   
+
+    <a href="/guest/{{ id }}"><h5>{{name}} </h5></a>
+    
+    <p>{{age}} </p>
+ {{/each}}
+
+   </content>
+
+         <form action="/guest/new" method="GET">
+            <input type="submit" value="Add New Guest "/>
+        </form> 
+        </main>

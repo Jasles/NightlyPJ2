@@ -1,0 +1,18 @@
+<main>
+
+	<h2>EDIT THIS Service</h2>
+
+		<div id="edit-form-service" class="-container-show"></div>
+
+
+		<form action="/service/{{service.id }}?_method=PUT" method="POST">
+			Name: <input type="text" name="name" value="{{ service.name }}"/><br/>
+			Description: <input type="text" name="description" value="{{service.description }}"/><br/>
+			
+			Materials:<input type="text" name="materials" value="{{ service.materials}}"/><br/>
+			Time Needed to Complete Service:<input type="text" name="time" value="{{ service.time }}"/><br/>
+            <input type="submit" value="Edit Service"/>
+		</form>
+
+	</div>
+</main>

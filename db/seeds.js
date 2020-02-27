@@ -2,6 +2,7 @@
 let Hotel = require('../models/hotel.js')
 // let Service = require('../models/service.js');
 let Service = require('../models/service.js')
+let Guest = require('../models/guest.js')
 
 let NewHotel = [
 {
@@ -28,7 +29,7 @@ let NewHotel = [
 {
     name: 'Hilton Garden Inn',
     location:'Dunwoody',
-    image:'',
+    image: url("Unknown-5.jpeg"),
     description: 'Single',
     capacity:2 ,
     checkinTime: '11pm',
@@ -65,11 +66,23 @@ let NewService =[
 
 {
     
-    service_id:'Clean Parking Lot',
+    name:'Clean Parking Lot',
     description: 'Clean Pearking lot, free of trash.',
     materials:'Will be provided',
     time:'1 hour ',
 },
+]
+
+let NewGuest=
+[
+    {
+        name: 'Mary Tyler Moore',
+        Age:39,
+        image: '',
+        phone:'798-7659',
+        email:'happyday@me.com',
+    
+    }
 ]
 
 Hotel.deleteMany().then(() => {
@@ -78,6 +91,10 @@ Hotel.deleteMany().then(() => {
 
 Service.deleteMany().then(() => {
     return Service.create(NewService)
+});
+
+Guest.deleteMany().then(() => {
+    return Guest.create(NewGuest)
 });
 
 
