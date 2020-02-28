@@ -1,10 +1,14 @@
 This project was created to connect people with shelter resources. Hotels are able to provide a room in return for services provided at the hotel, for example, cleaning the parking lot or exterior windows in exchange for a nights stay. There is a page where all guests, hotels and service on the platform can be viewed.
 
 
-![WIREFRAME](./Untitled_Artwork 1.jpg)
-![WIREFRAME](./Untitled_Artwork 13.jpg)
+![WIREFRAME]
+https://github.com/Jasles/NightlyPJ2/blob/master/Untitled_Artwork%201.jpg?raw=true
+![WIREFRAME]
+https://github.com/Jasles/NightlyPJ2/blob/master/Untitled_Artwork%2013.jpg?raw=true
 
 
-![ERG](./Untitled_Artwork 12.jpg)
+![ERG]
+https://github.com/Jasles/NightlyPJ2/blob/master/Untitled_Artwork%2012.jpg?raw=true
 
-![Trello](./Screen Shot 2020-02-28 at 1.21.16 PM.png)
+Trello
+https://github.com/Jasles/NightlyPJ2/blob/master/Screen%20Shot%202020-02-28%20at%201.21.16%20PM.png?raw=true
