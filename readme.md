@@ -11,4 +11,4 @@ https://github.com/Jasles/NightlyPJ2/blob/master/Untitled_Artwork%2013.jpg?raw=t
 https://github.com/Jasles/NightlyPJ2/blob/master/Untitled_Artwork%2012.jpg?raw=true
 
 Trello
-https://github.com/Jasles/NightlyPJ2/blob/master/Screen%20Shot%202020-02-28%20at%201.21.16%20PM.png?raw=true
+https://trello.com/b/CH9hvBFc/nightly
