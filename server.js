@@ -3,9 +3,9 @@ const app = express()
 const methodOverride = require('method-override')
 const logger = require('morgan')
 
-const hotelRouter = require('./controllers/hotel')
-const serviceRouter = require('./controllers/service')
-const guestRouter = require('./controllers/guest')
+const hotelRouter = require('./controllers/Hotel')
+const serviceRouter = require('./controllers/Service')
+const guestRouter = require('./controllers/Guest')
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
