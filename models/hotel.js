@@ -8,7 +8,7 @@ const Hotel= new Schema({
     description:String,
     capacity:Number,
     checkinTime: String,
-    Service: String,
+    service: String,
 });
 
 

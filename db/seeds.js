@@ -12,7 +12,7 @@ let NewHotel = [
     description:'Double',
     capacity:4,
     checkinTime: '10pm', 
-    _id: 'Clean Parking Lot'
+    service: 'Clean Parking Lot',
 
 },
 
@@ -23,7 +23,7 @@ let NewHotel = [
     description:'Double',
     capacity:4,
     checkinTime: '11pm',
-    service: 'Clean Windows'
+    service: 'Clean Windows',
 },
 
 {
@@ -33,7 +33,7 @@ let NewHotel = [
     description: 'Single',
     capacity:2 ,
     checkinTime: '11pm',
-    service: 'Clean Parking Lot'
+    service: 'Clean Parking Lot',
 },
 {
     name: 'Quality Inn',
@@ -42,7 +42,7 @@ let NewHotel = [
     description:'Double',
     capacity: 4,
     checkinTime: '9pm',
-    service: 'Clean Windowns'
+    service: 'Clean Windowns',
 },
 
 {
@@ -52,7 +52,7 @@ let NewHotel = [
     description:'Suite',
     capacity: 6,
     checkinTime: '10pm',
-    service: 'Clean Parking Lot'
+    service: 'Clean Parking Lot',
 }
 ]
 
