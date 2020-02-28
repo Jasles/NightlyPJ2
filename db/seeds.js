@@ -69,7 +69,7 @@ let NewService =[
     name:'Clean Parking Lot',
     description: 'Clean Pearking lot, free of trash.',
     materials:'Will be provided',
-    time:'1 hour ',
+    time:'1 hour',
 },
 ]
 
@@ -81,7 +81,6 @@ let NewGuest=
         image: '',
         phone:'798-7659',
         email:'happyday@me.com',
-    
     }
 ]
 
