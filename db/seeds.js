@@ -50,7 +50,7 @@ let NewHotel = [
     location:'Decatur',
     image:'',
     description:'Suite',
-    capacity: 6,
+    capacity: '6',
     checkinTime: '10pm',
     service: 'Clean Parking Lot',
 }
