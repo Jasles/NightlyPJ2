@@ -29,7 +29,7 @@ let NewHotel = [
 {
     name: 'Hilton Garden Inn',
     location:'Dunwoody',
-    image: url("Unknown-5.jpeg"),
+    image: '',
     description: 'Single',
     capacity:2 ,
     checkinTime: '11pm',
