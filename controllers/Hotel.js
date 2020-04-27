@@ -38,6 +38,7 @@ hotelRouter.put('/:id',(req,res)=>{
    
     });
 });
+
 hotelRouter.delete('/:id', (req, res) => {
     Hotel.findByIdAndRemove(req.params.id).then(() => {
         res.redirect('/');
